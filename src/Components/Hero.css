@@ -1,0 +1,72 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hero-container {
+    background: #0F0F1D;
+}
+.hero-text p{
+    font-size: 23px;
+    width: 392px !important;
+}
+.hero-btn {
+    width: 380px;
+}
+
+.hero-btn img {
+    width: 170px;
+}
+.hero-detail {
+    display: flex;
+    height: 456px !important;
+}
+@media(max-width:800px) {
+    .h-main {
+        display: none;
+    }
+    .hero-detail{
+        height: 300px !important;
+    }
+    .hero-box{
+        height: 400px;
+        width: 100%;
+        background-size: 100% 100%;
+        background-position: 100% 100%;
+        background-image: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(0, 0, 0, 0.8435749299719888) 0%, rgba(1, 9, 10, 0.8183648459383753) 99%), url(../assets/img/ray1.png);
+    }
+    .hero-text p{
+        font-size: 18px;
+        width: 300px !important;
+        margin-top: 10px;
+    }
+}
+
+@media(max-width:768px) {
+    .hero-btn {
+        width: 260px;
+    }
+
+    .hero-btn img {
+        width: 120px;
+    }
+    .hero-detail{
+        padding: 15px !important;
+        display: flex;
+    }
+    .hero-text p{
+        font-size: 17px;
+        margin-top: 10px;
+        width: 300px !important;
+    }
+}
+@media(max-width:375px){
+    .hero-text p{
+        font-size: 14px !important;
+        width: 100% !important;
+    }
+    .hero-detail{
+        height: 300px !important;
+    }
+}

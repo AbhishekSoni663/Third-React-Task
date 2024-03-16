@@ -1,0 +1,26 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    /* border: 1px solid red; */
+}
+.third-section{
+    background: #0F0F1D;
+}
+.th-h5{
+    color: #FBB034;
+    font-family: "Poppins", sans-serif;
+}
+.th-p{
+    font-size: 24px;
+    font-family: "Poppins", sans-serif;
+}
+@media(max-width:768px){
+    .th-h5{
+       font-size: 30px !important;
+    }
+    .th-p{
+        font-size: 16px;
+        font-family: "Poppins", sans-serif;
+    }
+}
